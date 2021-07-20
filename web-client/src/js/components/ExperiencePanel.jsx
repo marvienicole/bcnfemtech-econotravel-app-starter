@@ -2,7 +2,7 @@ import * as React from 'react';
 import {useEffect, useState} from "react";
 import {ExperienceApi} from "../apis/experiencesApi"
 
-export const ExperiencePanel = () => {
+export function ExperiencePanel() {
 
     const [experiences, setExperiences] = useState([]);
 
@@ -12,7 +12,7 @@ export const ExperiencePanel = () => {
     useEffect(() => {
         let experienceApi = new ExperienceApi()
         experienceApi.getExperiences()
-            .then( experiences => setExperiences(experiences))
+            .then(experiences => setExperiences(experiences))
     }, []);
 
     return <div className={"experiencesList"}>
@@ -21,7 +21,7 @@ export const ExperiencePanel = () => {
             {experiences.map((experience) =>
                 <div className={"experiencesList__item experience"}>
                     <div className={"experience__name"}> {experience.name} </div>
-                    <div className={"experience__details"}> {experience.pricePerPerson + " €" } </div>
+                    <div className={"experience__details"}> {experience.pricePerPerson + " €"} </div>
                 </div>
             )}
         </div>
