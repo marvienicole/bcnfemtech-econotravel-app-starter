@@ -1,6 +1,18 @@
-/* #app {
-  height: 100vh;
-  padding: 20%;
+body {
+  margin: 0;
+}
+
+.navigationBar {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  background-color: antiquewhite;
+
+  a {
+    text-decoration: none;
+    padding: 10px;
+  }
+
 }
 
 .experiencesList {
@@ -51,4 +63,12 @@
   &:hover &__details {
     width: 100%;
   }
-} */
+}
+
+/*
+
+ #app {
+  height: 100vh;
+  padding: 20%;
+}
+ */
