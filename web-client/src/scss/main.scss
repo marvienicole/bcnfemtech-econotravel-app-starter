@@ -3,9 +3,7 @@ body {
   background-color: floralwhite;
   font-family: 'Montserrat', sans-serif;
 }
-
 // en el navbar
-
 .navigationBar {
   display: flex;
   justify-content: space-between;
@@ -34,7 +32,6 @@ body {
       margin-right: 30px;
   }
 }
-
 // en Experiencias
 .experiencesList {
   border: thin solid #444444;
@@ -92,3 +89,24 @@ body {
   padding: 20%;
 }
  */
+
+// en about
+
+.aboutSection {
+
+  .aboutContent1{
+    text-align: center;
+    margin: 150px ;
+  }
+  .aboutContent2 {
+    display: flex;
+    flex-direction: column;
+    p {
+      font-size: 12px;
+    }
+    .contactDetail {
+      color: green;
+      font-weight: bold;
+    }
+  }
+}
