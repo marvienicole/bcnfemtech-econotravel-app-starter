@@ -1,23 +1,41 @@
 body {
   margin: 0;
+  background-color: floralwhite;
+  font-family: 'Montserrat', sans-serif;
 }
+
+// en el navbar
 
 .navigationBar {
   display: flex;
+  justify-content: space-between;
   align-items: center;
   height: 50px;
-  background-color: antiquewhite;
-
+  background-color: whitesmoke;
+  .homeswitch {
+    color:#92DB52;
+    font-weight: bold;
+  }
   a {
     text-decoration: none;
     padding: 10px;
+    font-style: none;
+    color: black;
+  }
+  a:hover {
+    color: #92DB52;
+    font-weight: bolder;
   }
   img {
     height: 50px ;
     width: 50px;
   }
+  .switchLinks {
+      margin-right: 30px;
+  }
 }
 
+// en Experiencias
 .experiencesList {
   border: thin solid #444444;
   width: 300px;
@@ -69,7 +87,6 @@ body {
 }
 
 /*
-
  #app {
   height: 100vh;
   padding: 20%;

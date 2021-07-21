@@ -5,10 +5,11 @@ import {Link} from "react-router-dom";
 export const NavigationBar = () => (
     <nav className={"navigationBar"}>
         <div className={"LogoImg"}>
-            <img src="/web-client/src/img/transparentLogo.png" alt={"Logo"} />
+            <a><Link to={"/"}> <img src="/doc/images/logo.png" alt={" # econotravel"} /> </Link></a>
         </div>
         <div className={"switchLinks"}>
-            <a><Link to={"/catalog"}> Inicio </Link></a>
+            <a><Link to={"/"}> <span className={"homeswitch"}>Home</span> </Link></a>
+            <a><Link to={"/catalog"}> Catálogo </Link></a>
             <a><Link to={"/experiencias"}> Experiencias </Link></a>
             <a><Link to={"/about"}> QUIÉNES SOMOS </Link></a>
         </div>
