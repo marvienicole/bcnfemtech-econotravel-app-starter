@@ -2,7 +2,7 @@ import * as React from "react";
 
 export const About = () => <section className="aboutSection">
         <div className={"aboutContent1"}>
-            <h2 className={"aboutTitle"}>¿Quiénes somos?</h2>
+            <h2 className={"aboutTitle"}># E c o n o t r a v e l</h2>
             <p className={"aboutInfo"}>
                 Nuestra empresa se fundó a raíz de un viaje que nuestra fundadora, Marina Herrán, realizó en bicicleta por
                 Cataluña en el verano de 2001. Durante ese periodo, descubrió que las opciones turísticas que ofrecían ciudades
