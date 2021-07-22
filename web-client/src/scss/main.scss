@@ -1,6 +1,7 @@
+@import "~bootstrap/scss/bootstrap";
+
 body {
   margin: 0;
-  background-color: floralwhite;
   font-family: 'Montserrat', sans-serif;
 }
 // en el navbar
@@ -8,7 +9,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 50px;
+  height: 75px;
   background-color: whitesmoke;
   .homeswitch {
     color:#92DB52;
@@ -25,8 +26,8 @@ body {
     font-weight: bolder;
   }
   img {
-    height: 85px ;
-    width: 90px;
+    height: 150px;
+    width: 180px;
   }
   .switchLinks {
       margin-right: 30px;

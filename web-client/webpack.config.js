@@ -4,6 +4,7 @@ const CopyWebPackPlugin = require('copy-webpack-plugin');
 const path = require("path");
 const isDevelopment = process.env.NODE_ENV === 'development';
 
+
 module.exports = {
     devServer: {
         port: 3000
@@ -17,7 +18,7 @@ module.exports = {
         clean: true
     },
     resolve: {
-        extensions: [".js", ".jsx", ".scss"]
+        extensions: [".js", ".jsx", ".scss", ".css"]
     },
     module: {
         rules: [
@@ -39,13 +40,14 @@ module.exports = {
                 }
             },
             {
-                test: /\.scss$/,
+                test: /\.s?css$/,
                 use: [
                     "style-loader",
                     "css-loader",
-                    "sass-loader"
+                    "sass-loader",
+                    "postcss-loader"
                 ]
-            }
+            },
         ]
     },
     plugins: [
@@ -60,6 +62,11 @@ module.exports = {
             patterns: [
                 {from: 'src/static'}
             ]
-        })
+        }),
+        function () {
+            return [
+                require('autoprefixer')
+            ];
+        },
     ]
 }
