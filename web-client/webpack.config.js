@@ -7,7 +7,7 @@ const isDevelopment = process.env.NODE_ENV === 'development';
 
 module.exports = {
     devServer: {
-        port: 3000
+        port: 8081
     },
     entry: [
         path.join(__dirname, 'src/js/main.js')
