@@ -9,13 +9,13 @@ import {Home} from "./home";
 export const App = () => {
 
     return <Router>
-        <NavigationBar/>
-        <Switch>
-            <Route path={"/home"} component={Home}/>
-            <Route exact path={"/catalog"} component={Catalog}/>
-            <Route path={"/experiencias"} component={ExperiencePanel}/>
-            <Route path={"/about"} component={About}/>
-        </Switch>
-    </Router>
+                <NavigationBar/>
+                <Switch>
+                    <Route path={"/inicio"} component={Home}/>
+                    <Route exact path={"/catalog"} component={Catalog}/>
+                    <Route path={"/experiencias"} component={ExperiencePanel}/>
+                    <Route path={"/about"} component={About}/>
+                </Switch>
+            </Router>
 }
 
