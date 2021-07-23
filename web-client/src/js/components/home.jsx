@@ -1,6 +1,7 @@
 import * as React from "react";
 import Carousel from 'react-bootstrap/Carousel';
-import {CarouselItem} from "react-bootstrap";
+import {Button, CarouselItem} from "react-bootstrap";
+import {Link} from "react-router-dom";
 
 export const Home= (props) => (
             <Carousel className={"BS-Carousel"}>
@@ -14,6 +15,7 @@ export const Home= (props) => (
                             <Carousel.Caption>
                                 <h5>Paseo en bicicleta por el Montseny</h5>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                <Link to={"/reserve"}> <Button className="btn btn-warning"> Reserve </Button> </Link>
                             </Carousel.Caption>
                         </div>
                     </Carousel.Item>
@@ -28,6 +30,7 @@ export const Home= (props) => (
                             <Carousel.Caption>
                                 <h5> Descubre la costa en barco de vela </h5>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                <Link to={"/reserve"}> <Button className="btn btn-warning"> Reserve </Button> </Link>
                             </Carousel.Caption>
                         </div>
                     </Carousel.Item>
@@ -42,6 +45,7 @@ export const Home= (props) => (
                             <Carousel.Caption>
                                 <h5> Descubre la Barcelona Modernista de noche </h5>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                <Link to={"/reserve"}> <Button className="btn btn-warning"> Reserve </Button> </Link>
                             </Carousel.Caption>
                         </div>
                     </Carousel.Item>
@@ -56,6 +60,7 @@ export const Home= (props) => (
                             <Carousel.Caption>
                                 <h5> Del huerto a la mesa </h5>
                                 <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                                <Link to={"/reserve"}> <Button className="btn btn-warning"> Reserve </Button> </Link>
                             </Carousel.Caption>
                         </div>
                     </Carousel.Item>
@@ -70,6 +75,7 @@ export const Home= (props) => (
                             <Carousel.Caption>
                                 <h5> Arte en la montaña sagrada  </h5>
                                 <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                                <Link to={"/reserve"}> <Button className="btn btn-warning"> Reserve </Button> </Link>
                             </Carousel.Caption>
                         </div>
                     </Carousel.Item>

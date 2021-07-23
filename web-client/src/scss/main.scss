@@ -54,7 +54,9 @@ body {
 
 
 // en Experiencias
-
+#app {
+  background-color: #FBF1E3 ;
+}
 .experiencesList {
   border: thin solid #444444;
   width: 300px;
@@ -105,12 +107,7 @@ body {
   }
 }
 
-/*
- #app {
-  height: 100vh;
-  padding: 20%;
-}
- */
+
 
 // en about
 
@@ -153,3 +150,33 @@ body {
     }
   }
 }
+
+// reserve form + completed form msg
+.reserveFormContent{
+  padding: 5% 30%;
+    .reserveFormstyle {
+      display: flex;
+      flex-wrap: wrap;
+      align-content: center;
+      justify-content: center;
+      align-items: baseline;
+      flex-direction: column;
+      background-color: #FBF1E3;
+      width: 400px;
+      height: 450px;
+      border: 1px solid #0f5132;
+      border-radius: 20px;
+        h1 {
+          text-align: center;
+        }
+    }
+}
+
+  .completedFormMsg {
+    margin: 170px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #FBF1E3;
+  }
