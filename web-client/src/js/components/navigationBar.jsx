@@ -8,8 +8,8 @@ export const NavigationBar = () => (
                     <a><Link to={"/home"}> <img src="/transparentLogo.png" alt={""} /> </Link></a>
                 </div>
                 <div className={"switchLinks"}>
-                    <a><Link to={"/inicio"}> <span className={"homeswitch"}>Home</span> </Link></a>
-                    <a><Link to={"/catalog"}> Catálogo </Link></a>
+                    <a><Link to={"/"}> <span className={"homeswitch"}>Home</span> </Link></a>
+                    <a><Link to={"/"}> Catálogo </Link></a>
                     <a><Link to={"/experiencias"}> Experiencias </Link></a>
                     <a><Link to={"/about"}> QUIÉNES SOMOS </Link></a>
                 </div>

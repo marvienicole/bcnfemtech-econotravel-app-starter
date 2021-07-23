@@ -17,14 +17,14 @@ export function ExperiencePanel() {
     }, []);
 
     return <div className={"experiencesList"}>
-                <p className={"experiencesList__title"}>Experiences</p>
-                <div className={"experiencesList__list"}>
-                    {experiences.map((experience) =>
-                        <div className={"experiencesList__item experience"}>
-                            <div className={"experience__name"}> {experience.name} </div>
-                            <div className={"experience__details"}> {experience.pricePerPerson + " €"} </div>
-                        </div>
-                    )}
+        <p className={"experiencesList__title"}>Experiences</p>
+        <div className={"experiencesList__list"}>
+            {experiences.map((experience) =>
+                <div className={"experiencesList__item experience"}>
+                    <div className={"experience__name"}> {experience.name} </div>
+                    <div className={"experience__details"}> {experience.pricePerPerson + " €"} </div>
                 </div>
-            </div>
+            )}
+        </div>
+    </div>
 }

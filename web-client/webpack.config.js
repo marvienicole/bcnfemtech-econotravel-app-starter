@@ -7,6 +7,8 @@ const isDevelopment = process.env.NODE_ENV === 'development';
 
 module.exports = {
     devServer: {
+        inline: true,
+        historyApiFallback: true,
         port: 8081
     },
     entry: [

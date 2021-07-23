@@ -1,5 +1,4 @@
 package net.econotravel.econotravelapp.repositories;
-
 import net.econotravel.econotravelapp.domain.Experience;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;

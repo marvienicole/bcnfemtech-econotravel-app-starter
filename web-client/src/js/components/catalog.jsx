@@ -1,10 +1,19 @@
 import * as React from "react";
-import { Button } from 'react-bootstrap'
-import {Link} from "react-router-dom";
+import {ExpirienceCard} from "./ExpirienceCard";
+import {HeroBanner} from "./HeroBanner";
+import {CardGroup} from "react-bootstrap";
+
+
+
 
 
 export const Catalog = (props) => (
-        <div>
-            <Link to={"/reserve"}> <Button className="btn btn-warning"> Reserve </Button> </Link>
-        </div>
+    <section className={"catalogSection"}>
+        <HeroBanner/>
+        <CardGroup className={"cardAlignment"}>
+        { props.expirience.map( experiences1 =>
+                <ExpirienceCard expirience={experiences1} />
+                )}
+        </CardGroup>
+    </section>
 )

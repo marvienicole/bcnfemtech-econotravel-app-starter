@@ -39,7 +39,7 @@ body {
         margin-right: 30px;
     }
 }
-// Inicio
+// Home / Catalog
 
 .BS-Carousel {
   background-color: #FBF1E3 ;
@@ -49,6 +49,21 @@ body {
       width: 500px;
       height: 500px;
     }
+}
+.catalogSection {
+  display: flex;
+  flex-direction: column;
+
+  .cardAlignment {
+    padding: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+      .experience1 {
+
+      }
+  }
 }
 
 
