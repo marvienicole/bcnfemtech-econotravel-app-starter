@@ -266,3 +266,57 @@ body {
     background-color: #FBF1E3;
   }
 
+// footer
+
+.footerSection{
+  display: flex;
+  justify-content: space-between;
+  background-color: #3E4F44;
+  height: 25%;
+  color: white;
+  font-family: Montserrat;
+    a {
+      text-decoration: none;
+      color: white;
+    }
+  a:hover {
+    color: white;
+    font-weight: bolder;
+  }
+  .contactdetailsfooter {
+    display: compact;
+    .contactcontentfooter{
+      font-weight: bold;
+      color: green;
+    }
+  }
+
+}
+
+// scroll to top
+
+.scrollTop {
+  position: fixed;
+  width: 100%;
+  bottom: 20px;
+  align-items: center;
+  height: 20px;
+  justify-content: center;
+  z-index: 1000;
+  cursor: pointer;
+  animation: fadeIn 0.3s;
+  transition: opacity 0.4s;
+  opacity: 0.5;
+    .scrollTop:hover{
+      opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}

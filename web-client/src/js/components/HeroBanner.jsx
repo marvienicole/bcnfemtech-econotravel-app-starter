@@ -8,8 +8,10 @@ export const HeroBanner= (props) => {
     const popover1 = (
         <Popover id="popover-basic">
             <Popover.Body>
-               <Popover.Header as="h2">Accesibilidad</Popover.Header>
-                Actividad disponible para todas las edades. Disponemos de bicicletas accesibles para personas con movilidad reducida en el tren inferior así como sillines con capacidad para niños menores de 5 años (peso máximo 20kg)
+                <Popover.Header as="h2">Accesibilidad</Popover.Header>
+                Actividad disponible para todas las edades. Disponemos de bicicletas accesibles para personas con
+                movilidad reducida en el tren inferior así como sillines con capacidad para niños menores de 5 años
+                (peso máximo 20kg)
                 <Popover.Header as="h2">Duración</Popover.Header>
                 5 horas
 
@@ -26,7 +28,7 @@ export const HeroBanner= (props) => {
             </Popover.Body>
         </Popover>
     );
-    const popover3= (
+    const popover3 = (
         <Popover id="popover-basic">
             <Popover.Body>
                 <Popover.Header as="h2">Accesibilidad</Popover.Header>
@@ -50,7 +52,8 @@ export const HeroBanner= (props) => {
         <Popover id="popover-basic">
             <Popover.Body>
                 <Popover.Header as="h2">Accesibilidad</Popover.Header>
-                Actividad disponible para todas las edades. El acceso al museo y al restaurante en silla de ruedas está garantizado
+                Actividad disponible para todas las edades. El acceso al museo y al restaurante en silla de ruedas está
+                garantizado
                 <Popover.Header as="h2">Duración</Popover.Header>
                 2 horas
             </Popover.Body>
@@ -59,12 +62,12 @@ export const HeroBanner= (props) => {
 
     const Example1 = () => (
         <OverlayTrigger trigger="click" placement="top" overlay={popover1}>
-            <Button variant="success" > ⓘ  </Button>
+            <Button variant="success"> ⓘ </Button>
         </OverlayTrigger>
     );
     const Example2 = () => (
         <OverlayTrigger trigger="click" placement="right" overlay={popover2}>
-            <Button variant="success" > ⓘ </Button>
+            <Button variant="success"> ⓘ </Button>
         </OverlayTrigger>
     );
     const Example3 = () => (
@@ -74,7 +77,7 @@ export const HeroBanner= (props) => {
     );
     const Example4 = () => (
         <OverlayTrigger trigger="click" placement="right" overlay={popover4}>
-            <Button variant="success" > ⓘ </Button>
+            <Button variant="success"> ⓘ </Button>
         </OverlayTrigger>
     );
     const Example5 = () => (
@@ -102,7 +105,7 @@ export const HeroBanner= (props) => {
                         </ul>
                     </div>
                     <div className={"buttonscarousel"}>
-                        <Example1 />
+                        <Example1/>
                         <Link to={"/reserve"}> <Button className="btn btn-warning"> Reserve </Button> </Link>
                     </div>
                 </Carousel.Caption>
@@ -127,7 +130,7 @@ export const HeroBanner= (props) => {
                         </ul>
                     </div>
                     <div className={"buttonscarousel"}>
-                        <Example2  />
+                        <Example2/>
                         <Link to={"/reserve"}> <Button className="btn btn-warning"> Reserve </Button> </Link>
                     </div>
                 </Carousel.Caption>
@@ -143,7 +146,8 @@ export const HeroBanner= (props) => {
             <div className={"BS-Carousel-Info"}>
                 <Carousel.Caption>
                     <h5> La Barcelona Modernista de noche </h5>
-                    <p> En esta excursión de cuatro horas, descubriremos los principales emblemas del modernismo y visitaremos los templos y edificios más célebres del arquitecto Gaudí </p>
+                    <p> En esta excursión de cuatro horas, descubriremos los principales emblemas del modernismo y
+                        visitaremos los templos y edificios más célebres del arquitecto Gaudí </p>
                     <div className={"etiquetascarousel"}>
                         <ul>
                             <li>ciudad</li>
@@ -152,7 +156,7 @@ export const HeroBanner= (props) => {
                         </ul>
                     </div>
                     <div className={"buttonscarousel"}>
-                        <Example3 />
+                        <Example3/>
                         <Link to={"/reserve"}> <Button className="btn btn-warning"> Reserve </Button> </Link>
                     </div>
                 </Carousel.Caption>
@@ -177,10 +181,10 @@ export const HeroBanner= (props) => {
                         </ul>
                     </div>
                     <div className={"buttonscarousel"}>
-                        <Example4 />
+                        <Example4/>
                         <Link to={"/reserve"}> <Button className="btn btn-warning"> Reserve </Button> </Link>
                     </div>
-                    </Carousel.Caption>
+                </Carousel.Caption>
             </div>
         </Carousel.Item>
 
@@ -193,7 +197,8 @@ export const HeroBanner= (props) => {
             <div className={"BS-Carousel-Info"}>
                 <Carousel.Caption>
                     <h5> Arte en la montaña sagrada </h5>
-                    <p>Disfruta de la impresionante Montaña de Montserrat donde encontraréis el Museo con las salas modernistas de Puig i Cadafalch</p>
+                    <p>Disfruta de la impresionante Montaña de Montserrat donde encontraréis el Museo con las salas
+                        modernistas de Puig i Cadafalch</p>
                     <div className={"etiquetascarousel"}>
                         <ul>
                             <li>montaña</li>
@@ -202,7 +207,7 @@ export const HeroBanner= (props) => {
                         </ul>
                     </div>
                     <div className={"buttonscarousel"}>
-                        <Example5 />
+                        <Example5/>
                         <Link to={"/reserve"}> <Button className="btn btn-warning"> Reserve </Button> </Link>
                     </div>
                 </Carousel.Caption>

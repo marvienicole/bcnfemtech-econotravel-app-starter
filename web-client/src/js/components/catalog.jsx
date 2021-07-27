@@ -7,6 +7,7 @@ import {CardGroup} from "react-bootstrap";
 
 
 
+
 export const Catalog = (props) => (
     <section className={"catalogSection"}>
         <HeroBanner/>
