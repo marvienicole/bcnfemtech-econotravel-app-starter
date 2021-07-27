@@ -1,5 +1,5 @@
 import * as React from "react";
-import { Link  } from 'react-router-dom';
+import { Link } from 'react-scroll';
 
 
 
@@ -10,12 +10,10 @@ export const NavigationBar = () => (
                     <div className={"LogoImg"}>
                         <a><Link to={"/home"}> <img src="/transparentLogo.png" alt={""} /> </Link></a>
                     </div>
-
                 <div className={"switchLinks"}>
-                    <a><Link to={"/"}> <span className={"homeswitch"}>Home</span> </Link></a>
-                    <a><Link to="expiriences" > Catálogo </Link></a>
-                    <a><Link to={"/experiencias"}> Experiencias </Link></a>
-                    <a><Link to={"/about"}> QUIÉNES SOMOS </Link></a>
+                    <a><Link to="/" smooth={true} duration={1200}> <span className={"homeswitch"}>Home</span> </Link></a>
+                    <a><Link to="scroll2expiriences" smooth={true}  offset={-70} duration={500}> Experiencias </Link></a>
+                    <a><Link to="footer" smooth={true} duration={800}> Location </Link></a>
                 </div>
             </nav>
 )

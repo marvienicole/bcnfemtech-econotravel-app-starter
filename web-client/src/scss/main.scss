@@ -18,16 +18,17 @@ body {
   align-items: center;
   height: 80px;
     .homeswitch {
-      color:#92DB52;
+      color:#4C8055;
       font-weight: bold;
     }
     a {
       text-decoration: none;
       padding: 10px;
       color: black;
+      cursor: pointer;
     }
     a:hover {
-      color: #92DB52;
+      color: #4C8055;
       font-weight: bolder;
       border-color: lightslategray;
     }
@@ -51,6 +52,7 @@ body {
   }
 
   .carousel-caption {
+    font-family: Montserrat;
     position: center;
     color: #fff;
     text-align: center;
@@ -71,6 +73,7 @@ body {
         list-style-type: none;
 
         li {
+          font-family: Montserrat;
           margin-left: 10px;
           background-color: gray;
           border-radius: 10px;
@@ -87,6 +90,7 @@ body {
       display: flex;
       justify-content: center;
         Button {
+          font-family: Montserrat;
           margin-left: 5px;
           height: 30px;
           text-align: center;
@@ -107,13 +111,22 @@ body {
     flex-direction: column;
 
     .cardAlignment {
-      padding: 10%;
+      padding: 2% 10% 10% 10%;
       display: flex;
       flex-wrap: wrap;
       flex-direction: row;
       justify-content: space-around;
+      .ExperienceTitle{
+        text-align: center;
+        padding-top: 20%;
+        letter-spacing: 3px;
+        font-family: Montserrat;
+        font-weight: bolder;
+      }
 
-      .experience1 {
+        .card {
+          font-family: Montserrat;
+          margin-top: 5%;
 
       }
     }

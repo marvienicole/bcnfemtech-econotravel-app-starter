@@ -93,7 +93,7 @@ export const HeroBanner= (props) => {
             <div className={"BS-Carousel-Info"}>
                 <Carousel.Caption>
                     <h5>Paseo en bicicleta por el Montseny</h5>
-                    <p>Disfruta de un hermoso paseo en bicicleta por el increíble Parque Natural del Montseny.</p>
+                    <p>Disfruta de un hermoso paseo en bicicleta por el increíble Parque Natural del Montseny</p>
                     <div className={"etiquetascarousel"}>
                         <ul>
                             <li>montaña</li>
@@ -117,7 +117,7 @@ export const HeroBanner= (props) => {
             />
             <div className={"BS-Carousel-Info"}>
                 <Carousel.Caption>
-                    <h5> Descubre la costa en barco de vela </h5>
+                    <h5> La costa en barco de vela </h5>
                     <p>Disfruta de un hermoso paseo acuático en barco de vela por la increíble costa de Barcelona </p>
                     <div className={"etiquetascarousel"}>
                         <ul>
@@ -142,7 +142,7 @@ export const HeroBanner= (props) => {
             />
             <div className={"BS-Carousel-Info"}>
                 <Carousel.Caption>
-                    <h5> Descubre la Barcelona Modernista de noche </h5>
+                    <h5> La Barcelona Modernista de noche </h5>
                     <p> En esta excursión de cuatro horas, descubriremos los principales emblemas del modernismo y visitaremos los templos y edificios más célebres del arquitecto Gaudí </p>
                     <div className={"etiquetascarousel"}>
                         <ul>
