@@ -275,20 +275,24 @@ body {
   height: 25%;
   color: white;
   font-family: Montserrat;
+    img {
+      height: 80px;
+      width: 100px;
+    }
     a {
       text-decoration: none;
       color: white;
     }
-  a:hover {
-    color: white;
-    font-weight: bolder;
-  }
-  .contactdetailsfooter {
-    display: compact;
-    .contactcontentfooter{
-      font-weight: bold;
-      color: green;
+    a:hover {
+      color: white;
+      font-weight: bolder;
     }
+    .contactdetailsfooter {
+      display: compact;
+      .contactcontentfooter{
+        font-weight: bold;
+        color: green;
+      }
   }
 
 }
