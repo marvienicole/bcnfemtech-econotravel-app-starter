@@ -88,11 +88,7 @@ export const HeroBanner= (props) => {
 
     return <Carousel className={"BS-Carousel"}>
         <Carousel.Item>
-            <img
-                className="d-block w-100"
-                src="https://cdn2.civitatis.com/espana/viladrau/tour-bicicleta-electrica-parque-montseny.jpg"
-                alt="First slide"
-            />
+            <img className="d-block w-100" src="/montseny-tioenelbosque.jpg" alt=""/>
             <div className={"BS-Carousel-Info"}>
                 <Carousel.Caption>
                     <h5>Paseo en bicicleta por el Montseny</h5>
@@ -113,11 +109,7 @@ export const HeroBanner= (props) => {
         </Carousel.Item>
 
         <Carousel.Item>
-            <img
-                className="d-block w-100"
-                src="https://www.trackstour.com/wp-content/uploads/2020/01/tracks-montseny-btt-2.jpg"
-                alt="Second slide"
-            />
+            <img className="d-block w-100" src="/LaCosta-sailingship.jpg" alt=""/>
             <div className={"BS-Carousel-Info"}>
                 <Carousel.Caption>
                     <h5> La costa en barco de vela </h5>
@@ -138,11 +130,7 @@ export const HeroBanner= (props) => {
         </Carousel.Item>
 
         <Carousel.Item>
-            <img
-                className="d-block w-100"
-                src="https://s3-eu-west-1.amazonaws.com/gr-cms/media/featured_images/none/b5c814af-3f17-433d-96e9-b32e7bc5c0b2/cesar-cid-ruta-en-moto-montmelo-montseny-27.jpg"
-                alt="Third slide"
-            />
+            <img className="d-block w-100" src="/BcnNoche-4.jpg" alt=""/>
             <div className={"BS-Carousel-Info"}>
                 <Carousel.Caption>
                     <h5> La Barcelona Modernista de noche </h5>
@@ -164,11 +152,7 @@ export const HeroBanner= (props) => {
         </Carousel.Item>
 
         <Carousel.Item>
-            <img
-                className="d-block w-100"
-                src="https://s3-eu-west-1.amazonaws.com/gr-cms/media/featured_images/none/b5c814af-3f17-433d-96e9-b32e7bc5c0b2/cesar-cid-ruta-en-moto-montmelo-montseny-27.jpg"
-                alt="Third slide"
-            />
+            <img className="d-block w-100" src="/Huerto-exampl1.jpg" alt=""/>
             <div className={"BS-Carousel-Info"}>
                 <Carousel.Caption>
                     <h5> Del huerto a la mesa </h5>
@@ -189,11 +173,7 @@ export const HeroBanner= (props) => {
         </Carousel.Item>
 
         <Carousel.Item>
-            <img
-                className="d-block w-100"
-                src="https://s3-eu-west-1.amazonaws.com/gr-cms/media/featured_images/none/b5c814af-3f17-433d-96e9-b32e7bc5c0b2/cesar-cid-ruta-en-moto-montmelo-montseny-27.jpg"
-                alt="Third slide"
-            />
+            <img className="d-block w-100" src="/Montserrat-portadaconpersonas.jpg" alt=""/>
             <div className={"BS-Carousel-Info"}>
                 <Carousel.Caption>
                     <h5> Arte en la montaña sagrada </h5>

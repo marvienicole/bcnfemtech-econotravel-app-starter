@@ -43,12 +43,14 @@ body {
 // Home / Catalog
 
 .BS-Carousel {
-  background-color: #FBF1E3;
+  background-color: #3E4F44;
   width: 100%;
 
   img {
-    width: 500px;
-    height: 500px;
+    padding: 1% 0%;
+    height: 620px;
+    object-fit: cover;
+    border-radius: 20px;
   }
 
   .carousel-caption {
@@ -56,13 +58,16 @@ body {
     position: center;
     color: #fff;
     text-align: center;
-    background-color: #19201B ;
-    opacity:80%;
     padding: 20px;
     border-radius: 30px;
     font-size: 15px;
     cursor: default;
-
+    background-color: #444444;
+    opacity: 80%;
+      h5,p{
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+        font-weight: bolder;
+      }
     .etiquetascarousel {
       ul {
         display: flex;
@@ -82,6 +87,7 @@ body {
           text-align: center;
           padding: 5px;
           cursor: default;
+          border: 1px solid #ffffff;
         }
       }
     }
