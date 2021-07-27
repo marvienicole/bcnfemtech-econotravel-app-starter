@@ -42,133 +42,189 @@ body {
 // Home / Catalog
 
 .BS-Carousel {
-  background-color: #FBF1E3 ;
+  background-color: #FBF1E3;
   width: 100%;
-    img {
 
-      width: 500px;
-      height: 500px;
+  img {
+    width: 500px;
+    height: 500px;
+  }
+
+  .carousel-caption {
+    position: center;
+    color: #fff;
+    text-align: center;
+    background-color: #19201B ;
+    opacity:80%;
+    padding: 20px;
+    border-radius: 30px;
+    font-size: 15px;
+    cursor: default;
+
+    .etiquetascarousel {
+      ul {
+        display: flex;
+        justify-content: center;
+        padding: 0;
+        margin-top: 0;
+        margin-bottom: 1rem;
+        list-style-type: none;
+
+        li {
+          margin-left: 10px;
+          background-color: gray;
+          border-radius: 10px;
+          color: white;
+          font-size: 13px;
+          text-align: center;
+          padding: 5px;
+          cursor: default;
+        }
+      }
     }
-}
-.catalogSection {
-  display: flex;
-  flex-direction: column;
 
-  .cardAlignment {
-    padding: 10%;
+    .buttonscarousel {
+      display: flex;
+      justify-content: center;
+        Button {
+          margin-left: 5px;
+          height: 30px;
+          text-align: center;
+          font-size: 10px;
+            .infobutton {
+              cursor: help;
+        }
+      }
+    }
+  }
+}
+
+
+
+
+  .catalogSection {
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-around;
+    flex-direction: column;
+
+    .cardAlignment {
+      padding: 10%;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      justify-content: space-around;
+
       .experience1 {
 
       }
-  }
-}
-
-
-
-// en Experiencias
-#app {
-  background-color: #FBF1E3 ;
-}
-.experiencesList {
-  border: thin solid #444444;
-  width: 300px;
-  margin: auto;
-  border-radius: 12px;
-  background-color: whitesmoke;
-
-  &__title {
-    text-align: center;
+    }
   }
 
-  &__list {
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
+
+
+  // en Experiencias
+  #app {
+    background-color: #FBF1E3;
   }
 
-  &__item {
-    box-shadow: #444444 1px 1px;
-    border: thin solid black;
-  }
-}
+  .experiencesList {
+    border: thin solid #444444;
+    width: 300px;
+    margin: auto;
+    border-radius: 12px;
+    background-color: whitesmoke;
 
-.experience {
+    &__title {
+      text-align: center;
+    }
 
-  height: 120px;
-  position: relative;
-  text-align: center;
-
-  &__name {
-    padding: 20%;
-  }
-
-  &__details {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: #008CBA;
-    overflow: hidden;
-    width: 0;
-    height: 100%;
-    transition: .5s ease;
-
-  }
-  &:hover &__details {
-    width: 100%;
-  }
-}
-
-
-
-// en about
-
-.aboutSection {
-  .aboutContent1 {
-      .founderInfo {
-          display: flex;
-          justify-content: flex-start;
-
-          img {
-            width: 300px;
-            height: 400px;
-          }
-
-          .founderDetails {
-            flex-direction: column;
-          }
-          .founderInfo{
-            text-align: center;
-            margin: 150px;
-          }
-      }
-  }
-}
-
-.contactSection {
-  .contactDetails {
-    display: flex;
-    justify-content: center;
-
-    p {
+    &__list {
+      display: flex;
       flex-direction: column;
-      font-size: 12px;
-      justify-content: space-evenly;
+      padding: 10px;
     }
 
-    .contactDetail {
-      color: green;
-      font-weight: bold;
+    &__item {
+      box-shadow: #444444 1px 1px;
+      border: thin solid black;
     }
   }
-}
 
-// reserve form + completed form msg
-.reserveFormContent{
-  padding: 5% 30%;
+  .experience {
+
+    height: 120px;
+    position: relative;
+    text-align: center;
+
+    &__name {
+      padding: 20%;
+    }
+
+    &__details {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background-color: #008CBA;
+      overflow: hidden;
+      width: 0;
+      height: 100%;
+      transition: .5s ease;
+
+    }
+
+    &:hover &__details {
+      width: 100%;
+    }
+  }
+
+
+  // en about
+
+  .aboutSection {
+    .aboutContent1 {
+      .founderInfo {
+        display: flex;
+        justify-content: flex-start;
+
+        img {
+          width: 300px;
+          height: 400px;
+        }
+
+        .founderDetails {
+          flex-direction: column;
+        }
+
+        .founderInfo {
+          text-align: center;
+          margin: 150px;
+        }
+      }
+    }
+  }
+
+  .contactSection {
+    .contactDetails {
+      display: flex;
+      justify-content: center;
+
+      p {
+        flex-direction: column;
+        font-size: 12px;
+        justify-content: space-evenly;
+      }
+
+      .contactDetail {
+        color: green;
+        font-weight: bold;
+      }
+    }
+  }
+
+  // reserve form + completed form msg
+  .reserveFormContent {
+    padding: 5% 30%;
+
     .reserveFormstyle {
       display: flex;
       flex-wrap: wrap;
@@ -181,11 +237,12 @@ body {
       height: 450px;
       border: 1px solid #0f5132;
       border-radius: 20px;
-        h1 {
-          text-align: center;
-        }
+
+      h1 {
+        text-align: center;
+      }
     }
-}
+  }
 
   .completedFormMsg {
     margin: 170px;
@@ -195,3 +252,4 @@ body {
     flex-direction: column;
     background-color: #FBF1E3;
   }
+

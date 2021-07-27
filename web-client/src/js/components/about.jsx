@@ -1,7 +1,7 @@
 import * as React from "react";
 
 export const About = () => <section className="aboutSection">
-        <div className={"aboutContent1"}>
+        <div className={"aboutContent1"} id={"aboutcontent1"}>
             <div className={"founderInfo"}>
                 <img src="/MarinaHerran.jpg" alt={"founderimg"}/>
                 <div className={"founderDetails"}>
