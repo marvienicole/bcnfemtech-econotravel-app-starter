@@ -149,6 +149,27 @@ body {
         height: 600px;
         padding: 5%;
       }
+
+      .arraylisttitulos {
+        font-weight: bold;
+      }
+
+      ul {
+        display: flex;
+        padding: 0;
+        margin-top: 0;
+        list-style-type: none;
+
+        li {
+          font-family: Montserrat;
+          background-color: gray;
+          border-radius: 10px;
+          color: white;
+          font-size: 13px;
+          padding: 5px;
+          cursor: default;
+        }
+      }
     }
   }
 }
@@ -273,6 +294,11 @@ body {
 
     h1 {
       text-align: center;
+    }
+
+    .input-group-calender {
+      max-width: 225px;
+      padding-left: 15px;
     }
   }
 }

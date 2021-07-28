@@ -21,10 +21,22 @@ export const ExpirienceCard = (props) =>
                 <Card.Title> {props.expirience.title} </Card.Title>
                 <Card.Text> {props.expirience.description} </Card.Text>
                 <ListGroup className="list-group-flush">
-                    <ListGroupItem>Duración de la excursión: {props.expirience.duration + "h"}</ListGroupItem>
-                    <ListGroupItem>{props.expirience.accesibility}</ListGroupItem>
-                    <ListGroupItem>Precio por persona: {props.expirience.pricePerPerson + "€"}</ListGroupItem>
-                    <ListGroupItem>{props.expirience.etiquete}</ListGroupItem>
+                    <ListGroupItem>
+                        <p className={"arraylisttitulos"}> Duración: </p> {props.expirience.duration + "h"}
+                    </ListGroupItem>
+                    <ListGroupItem>
+                        <p className={"arraylisttitulos"}> Accesibilidad: </p> {props.expirience.accesibility}
+                    </ListGroupItem>
+                    <ListGroupItem>
+                        <p className={"arraylisttitulos"}> Precio: </p> {props.expirience.pricePerPerson + "€ por persona"}
+                    </ListGroupItem>
+                    <ListGroupItem>
+                        <ul>
+                            <li>{props.expirience.etiquete1}</li>
+                            <li>{props.expirience.etiquete2}</li>
+                            <li>{props.expirience.etiquete3}</li>
+                        </ul>
+                    </ListGroupItem>
                 </ListGroup>
                 <Link to={"/reserve"}> <Button className="btn btn-warning"> Reserve </Button> </Link>
             </Card.Body>

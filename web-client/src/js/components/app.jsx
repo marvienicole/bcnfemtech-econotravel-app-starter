@@ -9,6 +9,7 @@ import {completedForm} from "./CompletedForm";
 import {Footer} from "./Footer";
 import {ScrollArrow} from "./ScrollArrow";
 
+
 export const App = () => {
 
     const expiriencesList = [
@@ -21,7 +22,9 @@ export const App = () => {
             duration: "5",
             accesibility: "Actividad disponible para todas las edades. Disponemos de bicicletas accesibles para personas con movilidad reducida en el tren inferior así como sillines con capacidad para niños menores de 5 años (peso máximo 20kg). ",
             pricePerPerson: "250",
-            etiquete: ["montaña" + ", " + "bicicleta" + ", " + "excursión larga"]
+            etiquete1: "montaña",
+            etiquete2: "bicicleta" ,
+            etiquete3: "excursión larga"
         },
         {
             photo1: 'LaCosta-sailingship.jpg',
@@ -34,7 +37,9 @@ export const App = () => {
             duration: "4",
             accesibility: "Actividad disponible para todas las edades. Pasarela para silla de ruedas disponible bajo reserva. ",
             pricePerPerson: "280",
-            etiquete: "fff"
+            etiquete1: "montaña",
+            etiquete2: "bicicleta" ,
+            etiquete3: "excursión larga"
         },
         {
             photo1: 'BcnNoche-4.jpg',
@@ -46,7 +51,9 @@ export const App = () => {
             duration: "4",
             accesibility: "Actividad disponible para todas las edades. Accesibilidad garantizada para sillas de ruedas.",
             pricePerPerson: "200",
-            etiquete: "rfdg"
+            etiquete1: "montaña",
+            etiquete2: "bicicleta" ,
+            etiquete3: "excursión larga"
         },
         {
             photo1: 'Huerto-exampl1.jpg',
@@ -57,7 +64,9 @@ export const App = () => {
             duration: "3",
             accesibility: "Actividad disponible para todas las edades. El acceso al huerto en silla de ruedas está garantizado. ",
             pricePerPerson: "145",
-            etiquete: "saltar"
+            etiquete1: "montaña",
+            etiquete2: "bicicleta" ,
+            etiquete3: "excursión larga"
         },
         {
             photo1: 'Montserrat-portadamontaña.jpg',
@@ -68,7 +77,9 @@ export const App = () => {
             duration: "2",
             accesibility: "Actividad disponible para todas las edades. El acceso al museo y al restaurante en silla de ruedas está garantizado.",
             pricePerPerson: "125",
-            etiquete: "asdad"
+            etiquete1: "montaña",
+            etiquete2: "bicicleta" ,
+            etiquete3: "excursión larga"
         }
     ]
 
