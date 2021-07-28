@@ -37,8 +37,8 @@ export const App = () => {
             duration: "4",
             accesibility: "Actividad disponible para todas las edades. Pasarela para silla de ruedas disponible bajo reserva. ",
             pricePerPerson: "280",
-            etiquete1: "montaña",
-            etiquete2: "bicicleta" ,
+            etiquete1: "playa",
+            etiquete2: "barco" ,
             etiquete3: "excursión larga"
         },
         {
@@ -51,8 +51,8 @@ export const App = () => {
             duration: "4",
             accesibility: "Actividad disponible para todas las edades. Accesibilidad garantizada para sillas de ruedas.",
             pricePerPerson: "200",
-            etiquete1: "montaña",
-            etiquete2: "bicicleta" ,
+            etiquete1: "ciudad",
+            etiquete2: "a pie" ,
             etiquete3: "excursión larga"
         },
         {
@@ -65,8 +65,8 @@ export const App = () => {
             accesibility: "Actividad disponible para todas las edades. El acceso al huerto en silla de ruedas está garantizado. ",
             pricePerPerson: "145",
             etiquete1: "montaña",
-            etiquete2: "bicicleta" ,
-            etiquete3: "excursión larga"
+            etiquete2: "a pie" ,
+            etiquete3: "excursión corta"
         },
         {
             photo1: 'Montserrat-portadamontaña.jpg',
@@ -78,8 +78,8 @@ export const App = () => {
             accesibility: "Actividad disponible para todas las edades. El acceso al museo y al restaurante en silla de ruedas está garantizado.",
             pricePerPerson: "125",
             etiquete1: "montaña",
-            etiquete2: "bicicleta" ,
-            etiquete3: "excursión larga"
+            etiquete2: "a pie" ,
+            etiquete3: "excursión corta"
         }
     ]
 
