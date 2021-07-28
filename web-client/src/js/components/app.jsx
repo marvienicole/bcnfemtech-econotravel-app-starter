@@ -28,8 +28,8 @@ export const App = () => {
         },
         {
             photo1: 'LaCosta-sailingship.jpg',
-            photo2: '',
-            photo3: '',
+            photo2: 'LaCosta-sailingship.jpg',
+            photo3: 'LaCosta-sailingship.jpg',
             title: "Descubre la costa en barco de vela",
             description: "Disfruta de un hermoso paseo acuático en barco de vela por la increíble costa de Barcelona. Una escapada veraniega apta incluso para los días más calurosos del año. Descubre los encantadores alrededores de la ciudad de Barcelona y visita desde el mar sus más impresionantes playas y calas. \n" +
                 "Comenzaremos la excursión en el Puerto de Barcelona, desde donde partiremos hacia el norte para visitar playas como la Mar Bella, la Playa de la Mora y la Playa de los Pescadores. \n" +
@@ -43,8 +43,8 @@ export const App = () => {
         },
         {
             photo1: 'BcnNoche-4.jpg',
-            photo2: '',
-            photo3: '',
+            photo2: 'BcnNoche-4.jpg',
+            photo3: 'BcnNoche-4.jpg',
             title: "Descubre la Barcelona Modernista de noche",
             description: "Desplazarse a pie es una de las mejores formas de descubrir las maravillas modernistas que se esconden en el barcelonés distrito del Eixample, ubicado en el centro de la ciudad. En esta excursión de cuatro horas, descubriremos los principales emblemas del modernismo y visitaremos los templos y edificios más célebres del arquitecto Gaudí." +
                 "El tour incluye visita guiada al interior de la Casa Batlló y la Sagrada Familia, así como parada para cenar en el restaurante típico catalán Can Masiá, donde disfrutaremos de las mejores carnes de la región acompañadas de vinos de las tierras del Baix Empordá. El restaurante también ofrece opciones vegetarianas y veganas así como menú para niños. Cava aparte.",
@@ -57,8 +57,8 @@ export const App = () => {
         },
         {
             photo1: 'Huerto-exampl1.jpg',
-            photo2: '',
-            photo3: '',
+            photo2: 'Huerto-exampl1.jpg',
+            photo3: 'Huerto-exampl1.jpg',
             title: "Del huerto a la mesa",
             description: "Comparte con los más pequeños las maravillas de la naturaleza. En esta excursión breve de tres horas, podréis plantar vuestras propias hortalizas y verduras en el huerto de Can Gilabert, ubicado en el corazón del Montbaig. Durante una hora y media, aprenderéis a cuidar de vuestro propio huerto, plantaréis y abonaréis vuestras propias plantas, y también recogeréis parte de los ingredientes que los expertos chefs de Can Gilabert utilizarán para preparar la posterior cena, donde disfrutaréis de la experiencia de consumir productos recién recogidos de la tierra con vuestras propias manos. Actividad ideal para familiarizar a los más pequeños de la familia con el estilo de vida rural y la agricultura sostenible. Asimismo, obtendréis como obsequio una botella de aceite virgen extra cultivado y preparado en Can Gilabert, obra de la familia Gilabert, que lleva más de 80 años cultivando olivos. ",
             duration: "3",
@@ -70,8 +70,8 @@ export const App = () => {
         },
         {
             photo1: 'Montserrat-portadamontaña.jpg',
-            photo2: '',
-            photo3: '',
+            photo2: 'Montserrat-iglesia.jpg',
+            photo3: 'Montserrat-portadaconpersonas.jpg',
             title: "Arte en la montaña sagrada",
             description: "Disfruta de la impresionante Montaña de Montserrat donde encontraréis el Museo con las salas modernistas de Puig i Cadafalch, lugar que acoge colecciones de gran valor en el corazón de la emblemática montaña. En el Museo encontraréis pinturas del Renacimiento y del Barroco que conviven con autores de los siglos XIX y XX, objetos del Próximo Oriente y orfebrería. Además de disfrutar de un paseo guiado por la montaña y el Museo, esta actividad incluye tentempié variado acompañado de vino espumoso, cava brut o refresco. ",
             duration: "2",

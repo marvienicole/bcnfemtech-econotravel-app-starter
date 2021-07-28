@@ -21,14 +21,16 @@ export const ExpirienceCard = (props) =>
                 <Card.Title> {props.expirience.title} </Card.Title>
                 <Card.Text> {props.expirience.description} </Card.Text>
                 <ListGroup className="list-group-flush">
-                    <ListGroupItem>
-                        <p className={"arraylisttitulos"}> Duración: </p> {props.expirience.duration + "h"}
+                    <ListGroupItem className={"tarjeta-displayflex"}>
+                        <p className={"arraylisttitulos"}> Duración: </p>
+                        <p className={"arraylist-displayflex"}>{props.expirience.duration + " horas"} </p>
                     </ListGroupItem>
                     <ListGroupItem>
                         <p className={"arraylisttitulos"}> Accesibilidad: </p> {props.expirience.accesibility}
                     </ListGroupItem>
-                    <ListGroupItem>
-                        <p className={"arraylisttitulos"}> Precio: </p> {props.expirience.pricePerPerson + "€ por persona"}
+                    <ListGroupItem className={"tarjeta-displayflex"}>
+                        <p className={"arraylisttitulos"}> Precio: </p>
+                        <p className={"arraylist-displayflex"}>  {props.expirience.pricePerPerson + "€"}</p>
                     </ListGroupItem>
                     <ListGroupItem>
                         <ul>
