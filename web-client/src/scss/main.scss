@@ -1,10 +1,11 @@
 @import "~bootstrap/scss/bootstrap";
 
 html {
-  background-color: #FBF1E3 ;
+  background-color: #FBF1E3;
 }
+
 body {
-  background-color: #FBF1E3 ;
+  background-color: #FBF1E3;
   margin: 0;
   font-family: 'Montserrat', sans-serif;
 }
@@ -12,34 +13,40 @@ body {
 // en el navbar
 
 .navigationBar {
-  background-color: #DFCC9C ;
+  background-color: #DFCC9C;
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 80px;
-    .homeswitch {
-      color:#4C8055;
-      font-weight: bold;
-    }
-    a {
-      text-decoration: none;
-      padding: 10px;
-      color: black;
-      cursor: pointer;
-    }
-    a:hover {
-      color: #4C8055;
-      font-weight: bolder;
-      border-color: lightslategray;
-    }
-    img {
-      height: 150px;
-      width: 180px;
-    }
-    .switchLinks {
-        margin-right: 30px;
-    }
+
+  .homeswitch {
+    color: #4C8055;
+    font-weight: bold;
+  }
+
+  a {
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+    cursor: pointer;
+  }
+
+  a:hover {
+    color: #4C8055;
+    font-weight: bolder;
+    border-color: lightslategray;
+  }
+
+  img {
+    height: 150px;
+    width: 180px;
+  }
+
+  .switchLinks {
+    margin-right: 30px;
+  }
 }
+
 // Home / Catalog
 
 .BS-Carousel {
@@ -64,10 +71,12 @@ body {
     cursor: default;
     background-color: #444444;
     opacity: 80%;
-      h5,p{
-        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-        font-weight: bolder;
-      }
+
+    h5, p {
+      text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+      font-weight: bolder;
+    }
+
     .etiquetascarousel {
       ul {
         display: flex;
@@ -95,14 +104,16 @@ body {
     .buttonscarousel {
       display: flex;
       justify-content: center;
-        Button {
-          font-family: Montserrat;
-          margin-left: 5px;
-          height: 30px;
-          text-align: center;
-          font-size: 10px;
-            .infobutton {
-              cursor: help;
+
+      Button {
+        font-family: Montserrat;
+        margin-left: 5px;
+        height: 30px;
+        text-align: center;
+        font-size: 10px;
+
+        .infobutton {
+          cursor: help;
         }
       }
     }
@@ -110,195 +121,204 @@ body {
 }
 
 
+.catalogSection {
+  display: flex;
+  flex-direction: column;
+
+  .cardAlignment {
+    padding: 2% 10% 10% 10%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+
+    .ExperienceTitle {
+      text-align: center;
+      padding-top: 20%;
+      letter-spacing: 3px;
+      font-family: Montserrat;
+      font-weight: bolder;
+    }
+
+    .card {
+      font-family: Montserrat;
+      margin-top: 5%;
+
+      .card-img {
+        width: 100%;
+        height: 600px;
+        padding: 5%;
+      }
+    }
+  }
+}
 
 
-  .catalogSection {
+// en Experiencias
+#app {
+  background-color: #FBF1E3;
+}
+
+.experiencesList {
+  border: thin solid #444444;
+  width: 300px;
+  margin: auto;
+  border-radius: 12px;
+  background-color: whitesmoke;
+
+  &__title {
+    text-align: center;
+  }
+
+  &__list {
     display: flex;
     flex-direction: column;
+    padding: 10px;
+  }
 
-    .cardAlignment {
-      padding: 2% 10% 10% 10%;
+  &__item {
+    box-shadow: #444444 1px 1px;
+    border: thin solid black;
+  }
+}
+
+.experience {
+
+  height: 120px;
+  position: relative;
+  text-align: center;
+
+  &__name {
+    padding: 20%;
+  }
+
+  &__details {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #008CBA;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+
+  }
+
+  &:hover &__details {
+    width: 100%;
+  }
+}
+
+
+// en about
+
+.aboutSection {
+  .aboutContent1 {
+    .founderInfo {
       display: flex;
-      flex-wrap: wrap;
-      flex-direction: row;
-      justify-content: space-around;
-      .ExperienceTitle{
-        text-align: center;
-        padding-top: 20%;
-        letter-spacing: 3px;
-        font-family: Montserrat;
-        font-weight: bolder;
+      justify-content: flex-start;
+
+      img {
+        width: 300px;
+        height: 400px;
       }
 
-        .card {
-          font-family: Montserrat;
-          margin-top: 5%;
-
-      }
-    }
-  }
-
-
-
-  // en Experiencias
-  #app {
-    background-color: #FBF1E3;
-  }
-
-  .experiencesList {
-    border: thin solid #444444;
-    width: 300px;
-    margin: auto;
-    border-radius: 12px;
-    background-color: whitesmoke;
-
-    &__title {
-      text-align: center;
-    }
-
-    &__list {
-      display: flex;
-      flex-direction: column;
-      padding: 10px;
-    }
-
-    &__item {
-      box-shadow: #444444 1px 1px;
-      border: thin solid black;
-    }
-  }
-
-  .experience {
-
-    height: 120px;
-    position: relative;
-    text-align: center;
-
-    &__name {
-      padding: 20%;
-    }
-
-    &__details {
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      background-color: #008CBA;
-      overflow: hidden;
-      width: 0;
-      height: 100%;
-      transition: .5s ease;
-
-    }
-
-    &:hover &__details {
-      width: 100%;
-    }
-  }
-
-
-  // en about
-
-  .aboutSection {
-    .aboutContent1 {
-      .founderInfo {
-        display: flex;
-        justify-content: flex-start;
-
-        img {
-          width: 300px;
-          height: 400px;
-        }
-
-        .founderDetails {
-          flex-direction: column;
-        }
-
-        .founderInfo {
-          text-align: center;
-          margin: 150px;
-        }
-      }
-    }
-  }
-
-  .contactSection {
-    .contactDetails {
-      display: flex;
-      justify-content: center;
-
-      p {
+      .founderDetails {
         flex-direction: column;
-        font-size: 12px;
-        justify-content: space-evenly;
       }
 
-      .contactDetail {
-        color: green;
-        font-weight: bold;
-      }
-    }
-  }
-
-  // reserve form + completed form msg
-  .reserveFormContent {
-    padding: 5% 30%;
-
-    .reserveFormstyle {
-      display: flex;
-      flex-wrap: wrap;
-      align-content: center;
-      justify-content: center;
-      align-items: baseline;
-      flex-direction: column;
-      background-color: #FBF1E3;
-      width: 400px;
-      height: 450px;
-      border: 1px solid #0f5132;
-      border-radius: 20px;
-
-      h1 {
+      .founderInfo {
         text-align: center;
+        margin: 150px;
       }
     }
   }
+}
 
-  .completedFormMsg {
-    margin: 170px;
-    text-align: center;
+.contactSection {
+  .contactDetails {
     display: flex;
     justify-content: center;
+
+    p {
+      flex-direction: column;
+      font-size: 12px;
+      justify-content: space-evenly;
+    }
+
+    .contactDetail {
+      color: green;
+      font-weight: bold;
+    }
+  }
+}
+
+// reserve form + completed form msg
+.reserveFormContent {
+  padding: 5% 30%;
+
+  .reserveFormstyle {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: baseline;
     flex-direction: column;
     background-color: #FBF1E3;
+    width: 400px;
+    height: 450px;
+    border: 1px solid #0f5132;
+    border-radius: 20px;
+
+    h1 {
+      text-align: center;
+    }
   }
+}
+
+.completedFormMsg {
+  margin: 170px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #FBF1E3;
+}
 
 // footer
 
-.footerSection{
+.footerSection {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   background-color: #3E4F44;
   height: 25%;
   color: white;
   font-family: Montserrat;
-    img {
-      height: 80px;
-      width: 100px;
+
+  img {
+    height: 80px;
+    width: 100px;
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+  }
+
+  a:hover {
+    color: white;
+    font-weight: bolder;
+  }
+
+  .contactdetailsfooter {
+    display: compact;
+
+    .contactcontentfooter {
+      font-weight: bold;
+      color: green;
     }
-    a {
-      text-decoration: none;
-      color: white;
-    }
-    a:hover {
-      color: white;
-      font-weight: bolder;
-    }
-    .contactdetailsfooter {
-      display: compact;
-      .contactcontentfooter{
-        font-weight: bold;
-        color: green;
-      }
   }
 
 }
@@ -317,9 +337,10 @@ body {
   animation: fadeIn 0.3s;
   transition: opacity 0.4s;
   opacity: 0.5;
-    .scrollTop:hover{
-      opacity: 1;
-    }
+
+  .scrollTop:hover {
+    opacity: 1;
+  }
 }
 
 @keyframes fadeIn {

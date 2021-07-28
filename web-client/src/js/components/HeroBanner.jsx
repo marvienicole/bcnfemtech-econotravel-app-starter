@@ -3,7 +3,9 @@ import Carousel from 'react-bootstrap/Carousel';
 import {Button, CarouselItem, OverlayTrigger, Popover} from "react-bootstrap";
 import {Link} from "react-router-dom";
 
-export const HeroBanner= (props) => {
+
+export const HeroBanner = (props) => {
+
 
     const popover1 = (
         <Popover id="popover-basic">
@@ -61,27 +63,27 @@ export const HeroBanner= (props) => {
     );
 
     const Example1 = () => (
-        <OverlayTrigger trigger="click" placement="top" overlay={popover1}>
+        <OverlayTrigger trigger="focus" placement="top" overlay={popover1}>
             <Button variant="success"> ⓘ </Button>
         </OverlayTrigger>
     );
     const Example2 = () => (
-        <OverlayTrigger trigger="click" placement="right" overlay={popover2}>
+        <OverlayTrigger trigger="focus" placement="top" overlay={popover2}>
             <Button variant="success"> ⓘ </Button>
         </OverlayTrigger>
     );
     const Example3 = () => (
-        <OverlayTrigger trigger="click" placement="top" overlay={popover3}>
+        <OverlayTrigger trigger="focus" placement="top" overlay={popover3}>
             <Button variant="success"> ⓘ </Button>
         </OverlayTrigger>
     );
     const Example4 = () => (
-        <OverlayTrigger trigger="click" placement="right" overlay={popover4}>
+        <OverlayTrigger trigger="focus" placement="top" overlay={popover4}>
             <Button variant="success"> ⓘ </Button>
         </OverlayTrigger>
     );
     const Example5 = () => (
-        <OverlayTrigger trigger="click" placement="right" overlay={popover5}>
+        <OverlayTrigger trigger="focus" placement="top" overlay={popover5}>
             <Button variant="success"> ⓘ </Button>
         </OverlayTrigger>
     );
