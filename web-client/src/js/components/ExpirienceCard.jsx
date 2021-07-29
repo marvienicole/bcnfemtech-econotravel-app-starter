@@ -13,9 +13,6 @@ export const ExpirienceCard = (props) =>
                 <Carousel.Item>
                     <Card.Img src={props.expirience.photo2}/>
                 </Carousel.Item>
-                <Carousel.Item>
-                    <Card.Img src={props.expirience.photo3}/>
-                </Carousel.Item>
             </Carousel>
             <Card.Body>
                 <Card.Title> {props.expirience.title} </Card.Title>
@@ -29,7 +26,7 @@ export const ExpirienceCard = (props) =>
                         <p className={"arraylisttitulos"}> Accesibilidad: </p> {props.expirience.accesibility}
                     </ListGroupItem>
                     <ListGroupItem className={"tarjeta-displayflex"}>
-                        <p className={"arraylisttitulos"}> Precio: </p>
+                        <p className={"arraylisttitulos"}> Precio por persona: </p>
                         <p className={"arraylist-displayflex"}>  {props.expirience.pricePerPerson + "€"}</p>
                     </ListGroupItem>
                     <ListGroupItem>

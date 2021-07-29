@@ -11,6 +11,8 @@
     "@popperjs/core": "^2.9.2",
     "bootstrap": "^5.0.2",
     "bootstrap-loader": "^3.0.4",
+    "focus-trap-react": "^8.7.0",
+    "google-map-react": "^2.1.10",
     "jquery": "^3.6.0",
     "popper.js": "^1.16.1",
     "react": "^17.0.2",
