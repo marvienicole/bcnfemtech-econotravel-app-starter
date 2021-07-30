@@ -43,6 +43,7 @@ body {
   img {
     height: 150px;
     width: 180px;
+    padding: 4%;
   }
 
   .switchLinks {
@@ -160,6 +161,7 @@ body {
         text-align: center;
         padding: 6%;
         border: gray 1px solid;
+        margin: 20px;
       }
 
       .card-img {
@@ -171,7 +173,6 @@ body {
 
       .arraylisttitulos {
         font-weight: bold;
-
       }
 
       .tarjeta-displayflex {
@@ -180,6 +181,7 @@ body {
         .arraylist-displayflex {
           margin-left: 10px;
         }
+
       }
 
       ul {
@@ -196,7 +198,27 @@ body {
           font-size: 13px;
           padding: 5px;
           cursor: default;
-          margin-left: 3px;
+          margin-left: 10px;
+        }
+      }
+
+      .btncardreserva {
+        display: flex;
+        justify-content: flex-end;
+
+        .btn-warning {
+          color: #000;
+          background-color: #ffc107;
+          border-color: #ffc107;
+          border-radius: 20px;
+          width: 180px;
+          letter-spacing: 5px;
+          padding: 5% 0% 5% 0%;
+          margin: 2% 0% 3% 0%;
+        }
+
+        .btn-warning:hover {
+          color: white;
         }
       }
     }
@@ -265,23 +287,50 @@ body {
 // en about
 
 .aboutSection {
+  height: 850px;
+  padding: 10%;
+
   .aboutContent1 {
+
     .founderInfo {
       display: flex;
       justify-content: flex-start;
 
       img {
-        width: 300px;
-        height: 400px;
+        width: 500px;
+        height: 600px;
+        border-radius: 100px;
       }
 
-      .founderDetails {
-        flex-direction: column;
-      }
-
-      .founderInfo {
+      .foundertitle {
         text-align: center;
-        margin: 150px;
+        margin: 10%;
+
+        h3 {
+          font-family: Montserrat;
+          font-weight: bold;
+          letter-spacing: 3px;
+        }
+        h5{
+          font-family: Montserrat;
+        }
+
+      }
+
+      .aboutInfo {
+        margin: 5% 0% 10% 0%;
+
+        p {
+          margin-top: 0;
+          margin-bottom: 1rem;
+          padding: 5% 5% 5% 5%;
+          margin: 5% 4% 3% 10%;
+          border: 1px solid green;
+          background-color: white;
+          text-align: center;
+          letter-spacing: 1px;
+          border-radius: 10px;
+        }
       }
     }
   }
@@ -307,20 +356,15 @@ body {
 
 // reserve form + completed form msg
 .reserveFormContent {
-  padding: 5% 30%;
+  padding: 4% 25%;
 
   .reserveFormstyle {
     display: flex;
     flex-wrap: wrap;
-    align-content: center;
     justify-content: center;
-    align-items: baseline;
     flex-direction: column;
-    background-color: #FBF1E3;
-    width: 400px;
-    height: 450px;
-    border: 1px solid #0f5132;
-    border-radius: 20px;
+    width: 100%;
+    height: 600px;
 
     h1 {
       text-align: center;
@@ -330,26 +374,45 @@ body {
       max-width: 225px;
       padding-left: 15px;
     }
+
+    .reservebuttontext {
+      text-decoration: none;
+      color: white;
+
+    }
   }
 }
 
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
 .completedFormMsg {
+  font-family: Montserrat;
+  font-weight: bold;
   margin: 170px;
   text-align: center;
   display: flex;
   justify-content: center;
   flex-direction: column;
   background-color: #FBF1E3;
+  height: 200px;
+
+  a {
+    text-decoration: none;
+  }
 }
 
-// footer
+//footer
 
 .footerSection {
   width: 100%;
   display: flex;
   justify-content: space-between;
   background-color: #3E4F44;
-  height: 5%;
+  height: 188px;
   color: white;
   font-family: Montserrat;
 
@@ -359,23 +422,39 @@ body {
     margin: 6% 15% 2%;
   }
 
+  .footerGracias {
+    display: flex;
+
+    img {
+      height: 85px;
+      padding: 8% 10% 0%;
+    }
+
+    h1 {
+      font-family: "Montserrat";
+      letter-spacing: 10px;
+      font-size: 20px;
+      padding: 10% 0%;
+      cursor: default;
+    }
+  }
+
   .aboutusfooter {
     display: flex;
     flex-direction: column;
-    margin: 0% 0% 6% 1%;
 
     .aboutusfooter-links {
       display: flex;
       flex-direction: column;
-      padding: 1% 1% 3% 20%;
-      text-align: center;
       align-items: center;
 
       a {
         font-family: Montserrat;
         text-decoration: none;
         color: white;
-        letter-spacing: 3px;
+        letter-spacing: 5px;
+        font-size: 18px;
+        padding: 30%;
       }
 
       a:hover {
@@ -383,23 +462,19 @@ body {
         font-weight: bolder;
       }
 
-      img {
-        height: 145px;
-      }
-    }
+      .aboutusfooter-socialmedia {
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        margin: 0% 0% 0% 30%;
 
-    .aboutusfooter-socialmedia {
-      display: flex;
-      justify-content: space-evenly;
-      align-content: center;
-      padding: 5% 0%;
-
-      img {
-        height: 40px;
-        width: 40px;
-        margin-left: 15px;
-        border: white 1px solid;
-        border-radius: 85px;
+        img {
+          height: 40px;
+          width: 40px;
+          margin-left: 15px;
+          border: black 1px solid;
+          border-radius: 10px;
+        }
       }
     }
   }
@@ -409,11 +484,10 @@ body {
     flex-direction: column;
 
     .contactdetails-logoandtext {
-      padding: 10% 10%;
+      padding: 5% 5%;
       font-size: 15px;
-      border: white solid 1px;
       border-radius: 35px;
-      margin: 0% 10%;
+      margin: 0% 1%;
 
       p {
         margin-left: 10px;

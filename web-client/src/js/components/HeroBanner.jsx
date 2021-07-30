@@ -104,7 +104,7 @@ export const HeroBanner = (props) => {
                     </div>
                     <div className={"buttonscarousel"}>
                         <Example1/>
-                        <Link to={"/reserve"}> <Button className="btn btn-warning"> Reserve </Button> </Link>
+                        <Link to={"/reserve"}> <Button className="btn btn-warning"> Reservar </Button> </Link>
                     </div>
                 </Carousel.Caption>
             </div>
@@ -125,7 +125,7 @@ export const HeroBanner = (props) => {
                     </div>
                     <div className={"buttonscarousel"}>
                         <Example2/>
-                        <Link to={"/reserve"}> <Button className="btn btn-warning"> Reserve </Button> </Link>
+                        <Link to={"/reserve"}> <Button className="btn btn-warning"> Reservar </Button> </Link>
                     </div>
                 </Carousel.Caption>
             </div>
@@ -147,7 +147,7 @@ export const HeroBanner = (props) => {
                     </div>
                     <div className={"buttonscarousel"}>
                         <Example3/>
-                        <Link to={"/reserve"}> <Button className="btn btn-warning"> Reserve </Button> </Link>
+                        <Link to={"/reserve"}> <Button className="btn btn-warning"> Reservar </Button> </Link>
                     </div>
                 </Carousel.Caption>
             </div>
@@ -168,7 +168,7 @@ export const HeroBanner = (props) => {
                     </div>
                     <div className={"buttonscarousel"}>
                         <Example4/>
-                        <Link to={"/reserve"}> <Button className="btn btn-warning"> Reserve </Button> </Link>
+                        <Link to={"/reserve"}> <Button className="btn btn-warning"> Reservar </Button> </Link>
                     </div>
                 </Carousel.Caption>
             </div>
@@ -190,7 +190,7 @@ export const HeroBanner = (props) => {
                     </div>
                     <div className={"buttonscarousel"}>
                         <Example5/>
-                        <Link to={"/reserve"}> <Button className="btn btn-warning"> Reserve </Button> </Link>
+                        <Link to={"/reserve"}> <Button className="btn btn-warning"> Reservar </Button> </Link>
                     </div>
                 </Carousel.Caption>
             </div>

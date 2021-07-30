@@ -5,16 +5,18 @@ export const Footer = () => (
     <section className={"footerSection"} id={"scrolltofooter"}>
         <div className={"aboutusfooter"}>
             <div className={"aboutusfooter-links"}>
-                <a><Link to={"/home"}> <img src="/transparentLogo.png" alt={""}/> </Link></a>
                 <a><Link to={"/about"}> ¡CONOCENOS! </Link></a>
-            </div>
-            <div className={"aboutusfooter-socialmedia"}>
-                <img src="/logo-instagram.png" alt={""}/>
-                <img src="/logo-facebook.png" alt={""}/>
-                <img src="/logo-twitter.png" alt={""}/>
+                <div className={"aboutusfooter-socialmedia"}>
+                    <img src="/logo-instagram.png" alt={""}/>
+                    <img src="/logo-facebook.png" alt={""}/>
+                    <img src="/logo-twitter.png" alt={""}/>
+                </div>
             </div>
         </div>
-
+        <div className={"footerGracias"}>
+            <a><Link to={"/home"}> <img src="/transparentLogo.png" alt={""}/> </Link></a>
+            <h1> ECONOTRAVEL </h1>
+        </div>
         <div className={"contactdetailsfooter"}>
             <h2>Atención al cliente</h2>
             <div className={"contactdetails-logoandtext"}>

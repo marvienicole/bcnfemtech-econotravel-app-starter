@@ -37,7 +37,9 @@ export const ExpirienceCard = (props) =>
                         </ul>
                     </ListGroupItem>
                 </ListGroup>
-                <Link to={"/reserve"}> <Button className="btn btn-warning"> Reserve </Button> </Link>
+                <div className={"btncardreserva"}>
+                <Link to={"/reserve"}> <Button className="btn btn-warning"> Reservar </Button> </Link>
+                </div>
             </Card.Body>
         </Card>
     </div>

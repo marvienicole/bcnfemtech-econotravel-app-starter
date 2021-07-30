@@ -5,8 +5,11 @@ export const About = () => <section className="aboutSection">
         <div className={"founderInfo"}>
             <img src="/MarinaHerran.jpg" alt={"founderimg"}/>
             <div className={"founderDetails"}>
-                <p>Fundadora de Econotravel:</p>
-                <p>Marina Herrán</p>
+                <div className={"foundertitle"}>
+                    <h3>Marina Herrán</h3>
+                    <h5>Fundadora de Econotravel</h5>
+                </div>
+
                 <div className={"aboutInfo"}>
                     <p>
                         Nuestra empresa se fundó a raíz de un viaje que nuestra fundadora, Marina Herrán, realizó en
@@ -25,11 +28,6 @@ export const About = () => <section className="aboutSection">
                 </div>
             </div>
         </div>
-    </div>
-    <div className={"contactDetails"}>
-        <p><span className={"contactDetail"}>Teléfono:</span> 93 000 00 00 </p>
-        <p><span className={"contactDetail"}>Correo:</span> info@econotravel.com </p>
-        <p><span className={"contactDetail"}>Dirección:</span> Carrer dels Viatgers, 28, 08000 Barcelona </p>
     </div>
 </section>
 
